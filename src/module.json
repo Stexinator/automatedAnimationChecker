@@ -1,0 +1,52 @@
+{
+  "authors": [
+    {
+      "name": "Stexinator"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "A module to check if items have an automated animation",
+  "download": "",
+  "includes": [
+    "./assets/**",
+    "./packs/**",
+    "./languages/**",
+    "./scripts/**",
+    "./styles/**",
+    "./templates/**",
+    "./module.json",
+    "./README.md"
+  ],
+  "esmodules": [
+    "scripts/hooks.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "",
+  "readme": "README.md",
+  "relationships": {
+    "requires": [
+      {
+        "id": "autoanimations",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "styles": [
+    "styles/module.css"
+  ],
+  "id": "automated-animation-checker",
+  "title": "Automated Animation Checker",
+  "url": "",
+  "version": "0.0.1"
+}
